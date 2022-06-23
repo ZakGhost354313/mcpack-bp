@@ -1,20 +1,15 @@
+//~~/trading/armorer_trades.json
 {
   "tiers": [
     {
       "trades": [
         {
           "wants": [
-            "item": ""
-          ],
-          "gives": {}
-        }
-        {
-          "wants": [
             {
-              "item": "minecraft:coal:0",
+              "item": "minecraft:stick",
               "quantity": {
-                "min": 16,
-                "max": 24
+                "min": 1,
+                "max": 5
               }
             }
           ],
@@ -27,166 +22,160 @@
         {
           "wants": [
             {
-              "item": "minecraft:emerald",
+              "item":"minecraft:emerald",
               "quantity": {
-                "min": 4,
-                "max": 6
-              }
-            }
-          ],
-          "gives": [
-            {
-              "item": "minecraft:iron_helmet"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "trades":[
-      {
-        "wants": [
-          {
-            "item": "minecraft:iron_ingot",
-            "quantity": {
-              "min": 7,
-              "max": 9
-            }
-          }
-        ],
-        "gives": [
-          {
-            "item": "minecraft:emerald"
-          }
-        ]
-      },
-      {
-        "wants": [
-          {
-            "item": "minecraft:emerald",
-            "quantity": {
-              "min": 10,
-              "max": 14
-            }
-          }
-        ],
-        "gives": [
-          {
-            "item": "minecraft:iron_chestplate"
-          }
-        ]
-      }
-      ]
-    },
-    {
-      "trades": [
-        {
-          "wants": [
-            {
-              "item": "minecraft:diamond",
-              "quantity": {
-                "min": 3,
-                "max": 4
-              }
-            }
-          ],
-          "gives": [
-            {
-              "item": "minecraft:emerald"
-            }
-          ]
-        },
-        {
-          "wants": [
-            {
-              "item": "minecraft:emerald",
-              "quantity": {
-                "min": 16,
-                "max": 19
-              }
-            }
-          ],
-          "gives": [
-            {
-              "item": "minecraft:diamond_chestplate",
-              "functions": [
-                {
-                  "function": "enchant_with_levels",
-                  "treasure": false,
-                  "levels": {
-                    "min": 5,
-                    "max": 19
-                  }
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "trades": [
-        {
-          "wants": [
-            {
-              "item": "minecraft:emerald",
-              "quantity": {
-                "min": 5,
-                "max": 7
-              }
-            }
-          ],
-          "gives": [
-            {
-              "item": "minecraft:chainmail_boots"
-            }
-          ]
-        },
-        {
-          "wants": [
-            {
-              "item": "minecraft:emerald",
-              "quantity": {
-                "min": 9,
-                "max": 11
-              }
-            }
-          ],
-          "gives": [
-            {
-              "item": "minecraft:chainmail_leggings"
-            }
-          ]
-        },
-        {
-          "wants": [
-            {
-              "item": "minecraft:emerald",
-              "quantity": {
-                "min": 5,
-                "max": 7
-              }
-            }
-          ],
-          "gives": [
-            {
-              "item": "minecraft:chainmail_helmet"
-            }
-          ]
-        },
-        {
-          "wants": [
-            {
-              "item": "minecraft:emerald",
-              "quantity": {
-                "min": 11,
+                "min": 1,
                 "max": 15
               }
             }
           ],
           "gives": [
             {
-              "item": "minecraft:chainmail_chestplate"
+              "item":"minecraft:iron_helmet"
+            },
+            {
+              "item": "minecraft:iron_chestplate"
+            },
+            {
+              "item": "minecraft:iron_leggings"
+            },
+            {
+              "item": "minecraft:iron_boots"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item":"minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item":"minecraft:gold_helmet"
+            },
+            {
+              "item": "minecraft:gold_chestplate"
+            },
+            {
+              "item": "minecraft:gold_leggings"
+            },
+            {
+              "item": "minecraft:gold_boots"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item":"minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item":"minecraft:diamond_helmet"
+            },
+            {
+              "item": "minecraft:diamond_chestplate"
+            },
+            {
+              "item": "minecraft:diamond_leggings"
+            },
+            {
+              "item": "minecraft:diamond_boots"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trades": [
+        {
+          "wants": [
+            {
+              "item": "minecraft:stick",
+              "quantity": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item": "minecraft:emerald"
+            }
+          ]
+        },
+        {
+          "wants": [
+            {
+              "item":"minecraft:emerald",
+              "quantity": {
+                "min": 1,
+                "max": 15
+              }
+            }
+          ],
+          "gives": [
+            {
+              "item":"minecraft:netherite_helmet"
+            },
+            {
+              "item": "minecraft:netherite_chestplate"
+            },
+            {
+              "item": "minecraft:netherite_leggings"
+            },
+            {
+              "item": "minecraft:netherite_boots"
             }
           ]
         }
