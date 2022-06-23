@@ -3,7 +3,7 @@
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:armor_stand",
-      "is_spawnable": false,
+      "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
     },
@@ -16,15 +16,15 @@
         "height": 1.975
       },
       "minecraft:health": {
-        "value": 6,
-        "max": 6
+        "value": 100,
+        "max": 100
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
             "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
             "cause": "lava",
-            "damage_per_tick": 4
+            "damage_per_tick": -4
           }
         ]
       },
