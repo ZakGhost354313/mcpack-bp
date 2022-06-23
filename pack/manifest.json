@@ -1,15 +1,15 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Example vanilla behavior pack",
-        "name": "Vanilla Behavior Pack",
+        "description": "work in progress",
+        "name": "wp",
         "uuid": "e94e2dd6-d12f-4a3b-998c-726ef0e42657",
         "version": [ 0, 0, 1 ],
         "min_engine_version": [ 1, 19, 0 ]
     },
     "modules": [
         {
-            "description": "Example vanilla behavior pack",
+            "description": "work in progress",
             "type": "data",
             "uuid": "f11fdf28-3cda-41bc-bcf0-b4655903199c",
             "version": [0, 0, 1]

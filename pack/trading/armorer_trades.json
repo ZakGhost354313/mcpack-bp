@@ -4,6 +4,12 @@
       "trades": [
         {
           "wants": [
+            "item": ""
+          ],
+          "gives": {}
+        }
+        {
+          "wants": [
             {
               "item": "minecraft:coal:0",
               "quantity": {
