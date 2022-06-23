@@ -1312,7 +1312,7 @@ static const char __pyx_k_build_py[] = "build.py";
 static const char __pyx_k_you_sure_y_n[] = "you sure(y/n)?  ";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_zip_r_pack_zip_pack[] = "zip -r pack.zip pack";
-static const char __pyx_k_mv_pack_zip_wp_BP_mcpack[] = "mv pack.zip wp_BP.mcpack";
+static const char __pyx_k_mv_pack_zip_builds_wp_BP_mcpack[] = "mv pack.zip builds/wp_BP.mcpack";
 static PyObject *__pyx_n_s_a;
 static PyObject *__pyx_n_s_build;
 static PyObject *__pyx_kp_s_build_py;
@@ -1325,7 +1325,7 @@ static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_input;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_main_2;
-static PyObject *__pyx_kp_s_mv_pack_zip_wp_BP_mcpack;
+static PyObject *__pyx_kp_s_mv_pack_zip_builds_wp_BP_mcpack;
 static PyObject *__pyx_n_s_n;
 static PyObject *__pyx_n_s_name;
 static PyObject *__pyx_n_s_os;
@@ -1350,7 +1350,7 @@ static PyObject *__pyx_codeobj__4;
  * 
  * def build():             # <<<<<<<<<<<<<<
  *     os.system('zip -r pack.zip pack')
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  */
 
 /* Python wrapper */
@@ -1382,7 +1382,7 @@ static PyObject *__pyx_pf_5build_build(CYTHON_UNUSED PyObject *__pyx_self) {
  * 
  * def build():
  *     os.system('zip -r pack.zip pack')             # <<<<<<<<<<<<<<
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  * 
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_os); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 7, __pyx_L1_error)
@@ -1410,7 +1410,7 @@ static PyObject *__pyx_pf_5build_build(CYTHON_UNUSED PyObject *__pyx_self) {
   /* "build.py":8
  * def build():
  *     os.system('zip -r pack.zip pack')
- *     os.system('mv pack.zip wp_BP.mcpack')             # <<<<<<<<<<<<<<
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')             # <<<<<<<<<<<<<<
  * 
  * def main():
  */
@@ -1429,7 +1429,7 @@ static PyObject *__pyx_pf_5build_build(CYTHON_UNUSED PyObject *__pyx_self) {
       __Pyx_DECREF_SET(__pyx_t_2, function);
     }
   }
-  __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, __pyx_kp_s_mv_pack_zip_wp_BP_mcpack) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_kp_s_mv_pack_zip_wp_BP_mcpack);
+  __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, __pyx_kp_s_mv_pack_zip_builds_wp_BP_mcpack) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_kp_s_mv_pack_zip_builds_wp_BP_mcpack);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -1441,7 +1441,7 @@ static PyObject *__pyx_pf_5build_build(CYTHON_UNUSED PyObject *__pyx_self) {
  * 
  * def build():             # <<<<<<<<<<<<<<
  *     os.system('zip -r pack.zip pack')
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  */
 
   /* function exit code */
@@ -1460,7 +1460,7 @@ static PyObject *__pyx_pf_5build_build(CYTHON_UNUSED PyObject *__pyx_self) {
 }
 
 /* "build.py":10
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  * 
  * def main():             # <<<<<<<<<<<<<<
  *     a = input('you sure(y/n)?  ')
@@ -1588,7 +1588,7 @@ static PyObject *__pyx_pf_5build_2main(CYTHON_UNUSED PyObject *__pyx_self) {
   __pyx_L3:;
 
   /* "build.py":10
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  * 
  * def main():             # <<<<<<<<<<<<<<
  *     a = input('you sure(y/n)?  ')
@@ -1669,7 +1669,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_input, __pyx_k_input, sizeof(__pyx_k_input), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_main_2, __pyx_k_main_2, sizeof(__pyx_k_main_2), 0, 0, 1, 1},
-  {&__pyx_kp_s_mv_pack_zip_wp_BP_mcpack, __pyx_k_mv_pack_zip_wp_BP_mcpack, sizeof(__pyx_k_mv_pack_zip_wp_BP_mcpack), 0, 0, 1, 0},
+  {&__pyx_kp_s_mv_pack_zip_builds_wp_BP_mcpack, __pyx_k_mv_pack_zip_builds_wp_BP_mcpack, sizeof(__pyx_k_mv_pack_zip_builds_wp_BP_mcpack), 0, 0, 1, 0},
   {&__pyx_n_s_n, __pyx_k_n, sizeof(__pyx_k_n), 0, 0, 1, 1},
   {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
   {&__pyx_n_s_os, __pyx_k_os, sizeof(__pyx_k_os), 0, 0, 1, 1},
@@ -1710,12 +1710,12 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * def build():             # <<<<<<<<<<<<<<
  *     os.system('zip -r pack.zip pack')
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  */
   __pyx_codeobj__2 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_build_py, __pyx_n_s_build, 6, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__2)) __PYX_ERR(0, 6, __pyx_L1_error)
 
   /* "build.py":10
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  * 
  * def main():             # <<<<<<<<<<<<<<
  *     a = input('you sure(y/n)?  ')
@@ -2043,7 +2043,7 @@ if (!__Pyx_RefNanny) {
  * 
  * def build():             # <<<<<<<<<<<<<<
  *     os.system('zip -r pack.zip pack')
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  */
   __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_5build_1build, 0, __pyx_n_s_build, NULL, __pyx_n_s_build, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -2051,7 +2051,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "build.py":10
- *     os.system('mv pack.zip wp_BP.mcpack')
+ *     os.system('mv pack.zip builds/wp_BP.mcpack')
  * 
  * def main():             # <<<<<<<<<<<<<<
  *     a = input('you sure(y/n)?  ')
